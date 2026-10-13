@@ -38,3 +38,7 @@ The program reads each order from the input JSON file.
 - Menu items are grouped by item name.
 - The program counts how many orders contain each menu item.
 - The results are saved in separate JSON output files.
+
+## Verification
+
+The program was tested using `example_orders.json`, which contains 10,000 orders. The program generated customer and menu-item output files successfully.
