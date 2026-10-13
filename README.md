@@ -29,3 +29,12 @@ The program generates:
 
 - `customers.json`
 - `items.json`
+
+## Data Processing
+
+The program reads each order from the input JSON file.
+
+- Customer information is stored using phone numbers as keys.
+- Menu items are grouped by item name.
+- The program counts how many orders contain each menu item.
+- The results are saved in separate JSON output files.
